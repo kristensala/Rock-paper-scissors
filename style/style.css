@@ -1,0 +1,152 @@
+
+html body {
+    background:
+linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+background-color: #131313;
+background-size: 20px 20px;
+
+}
+.gamePane {
+    width: 1000px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+.playerPane {
+    float: left;
+    width: 32%;
+    height: inherit;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    text-align: center;
+
+    /*shadow*/
+    -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+}
+
+.results {
+    text-align: center;
+    float: left;
+    width: 34%;
+    height: inherit;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px 20px 20px 20px;
+    padding-top: 10px;
+    /*shadow*/
+    -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+}
+
+.computerPane {
+    float: left;
+    width: 32%;
+    height: inherit;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    text-align: center;
+
+    /*shadow*/
+    -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+}
+
+.playerButtons{
+    margin-top: 20px;
+}
+
+.resetBtn {
+    text-align: center;
+}
+
+.playerNameInput {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+table {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+table th {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+table tr:hover {
+    background-color: lightskyblue;
+}
+
+.resultTable {
+    margin-top: 80px;
+    height: 300px;
+    overflow: auto;
+}
+
+p {
+    font-size: 20px;
+    color: gray;
+    text-align: center;
+}
+.playerScore {
+    float: left;
+    border: solid 1px;
+    width: 80px;
+    height: 70px;
+    margin-left: 40px;
+    line-height: 65px;
+    font-size: 30px;
+
+    border-radius: 20px 20px 20px 20px;
+}
+
+.computerScore {
+    float: right;
+    border: solid 1px;
+    width: 80px;
+    height: 70px;
+    margin-right: 40px;
+    line-height: 65px;
+    font-size: 30px;
+
+    border-radius: 20px 20px 20px 20px;
+}
+
+/*http://codepen.io/juanbrujo/pen/yGpAK*/
+.area{
+  text-align:center;
+  font-size:5.0em;
+  color:#fff;
+  letter-spacing: -7px;
+  font-weight:700;
+  text-transform:uppercase;
+  animation:blur .75s ease-out infinite;
+  text-shadow:0px 0px 5px #fff,
+      0px 0px 7px #fff;
+}
+
+
+#gameResults th {
+    width: 110px;
+}
+#gameResults td {
+    border: 1px solid #ccc;
+    width: 110px;
+}
